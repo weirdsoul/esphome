@@ -2,7 +2,7 @@
 #include "esphome/core/log.h"
 #include "esphome/core/application.h"
 
-#ifdef USE_ESP8266
+#if defined(USE_ESP8266) || defined(USE_RP2040)
 
 namespace esphome {
 namespace remote_transmitter {
